@@ -5,15 +5,33 @@ header {
 	top: 0px;
 	position: fixed;
 	}
-#Header {
+#header-menu {
 text-align:right;
 top: 0px;
 }
-#Header ul{
+#header-menu ul{
  display: block;
 }
-#Header li {
+#header-menu li {
 display:inline-block;
 color: #0F5573;
 padding: 0px 36px;
 font-size: 14px;
+}
+
+.logo {
+padding: 50px;
+}
+
+#site-menu {
+text-align: right;
+}
+#site-menu ul {
+display: block;
+}
+#site-menu li {
+display: inline-block;
+color: #4A4A4A;
+padding: 0px 20px;
+font-size: 17px;
+}
