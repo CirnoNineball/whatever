@@ -1,3 +1,4 @@
+/*Header settings*/
 header {
     height:38px;
     background: #B6B6B6;
@@ -22,9 +23,14 @@ font-size: 14px;
 .logo {
 padding: 50px;
 }
+.gray-space {
+background-color:#F1F1F1;
+height:944px;
+}
 
 #site-menu {
 text-align: right;
+float:right;
 }
 #site-menu ul {
 display: block;
@@ -34,4 +40,11 @@ display: inline-block;
 color: #4A4A4A;
 padding: 0px 20px;
 font-size: 17px;
+}
+/* Below are IDs for pictures of Epsilon(?) we use */
+#epsilon {
+padding: 348px 454px 125px 356px;
+}
+#epsilon-front {
+padding: 212px 1028px 390px 615px;
 }
