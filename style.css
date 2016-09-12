@@ -23,11 +23,9 @@ font-size: 14px;
 .logo {
 padding: 50px;
 }
-.gray-space {
-background-color:#F1F1F1;
-height:944px;
-}
 
+
+/*Site menu and all it has*/
 #site-menu {
 text-align: right;
 float:right;
@@ -41,10 +39,36 @@ color: #4A4A4A;
 padding: 0px 20px;
 font-size: 17px;
 }
-/* Below are IDs for pictures of Epsilon(?) we use */
+
+/*Gray space in the site's page*/
+.gray-space {
+background-color:#F1F1F1;
+height:944px;
+}
+/* Below are IDs for pictures of Epsilon(?) we use and also other pictures in gray space */
 #epsilon {
 padding: 348px 454px 125px 356px;
+z-index: 2;
+position: absolute;
 }
 #epsilon-front {
 padding: 212px 1028px 390px 615px;
+z-index: 1;
+position: absolute;
 }
+
+/*Properties of "communications" image and all of the text inside it"*/
+#communications {
+padding: 144px 204px 522px 975px;
+z-index: 1;
+position: absolute;
+}
+.communications-text {
+padding: 56px 96px 143px 55px;
+color: #FFFFFF;
+z-index: 5;
+}
+.solutions {}
+#discover {}
+
+/*Description & Products below the Communications*/
