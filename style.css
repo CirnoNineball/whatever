@@ -20,62 +20,77 @@ header {
 	font-size: 14px;
 	font-weight: bold;
 }
+/*End*/
 
-.logo {
-	padding: 50px;
+/*Gray space is now occupying entire site, excluding header*/
+.gray-space {
+	background-color: #F1F1F1;
+	height: 2500px;
+	width: 100%;
 }
+/*End*/
 
+/*Settings for white-top below header*/
+.white-top {
+	background-color: #FFFFFF;
+	top: 0px;
+	width: 100%;
+	height: 156px;
+}
+.logo {
 
-/*Site menu and all it has*/
-#site-menu {
+}
+.site-menu {
 	text-align: right;
 	float:right;
 }
-#site-menu ul {
+.site-menu ul {
 	display: block;
 }
-#site-menu li {
+.site-menu li {
 	display: inline-block;
 	color: #4A4A4A;
 	padding: 0px 20px;
 	font-size: 17px;
 }
+/*End*/
 
-/*Gray space in the site's page*/
-.gray-space {
-	background-color:#F1F1F1;
-	height:944px;
+/*Products and Description*/
+.products-row {
+	width: 100%;
+	height: 944px;
+	background-color: inherit;
 }
-/* Below are IDs for pictures of Epsilon(?) we use and also other pictures in gray space */
-#epsilon {
-	padding: 348px 454px 125px 356px;
-	z-index: 2;
-	position: absolute;
+/*Left Side*/
+.left-side {
+ width: 892px;
+ height: 944px;
+ float: left;
 }
-#epsilon-front {
-	padding: 212px 1028px 390px 615px;
-	z-index: 1;
-	position: absolute;
+.border {
+ border: 8px solid #6666B2;
+ height: 550px;
+ width: 700px;
+ /*btw this border really doesn't want to place itself correctly, so let it be at the top-left atm*/
 }
+/*Right Side*/
+.right-side {
+ width: 1028px;
+ height: 944px;
+ float: right;
+}
+/*End*/
 
-/*Properties of "communications" image and all of the text inside it"*/
-.communications {
-	float: right;
-	width: 741px;
-	height: 278px;
-	background-image: url('communications.png');
-	background-size: cover;
-	background-position: center;
+/*Below is News block*/
+.news-back {
+	height: 944px;
+	width: inherit;
+	background-color: #FFFFFF;
 }
+/*End*/
 
-.communications-text {
-	padding: 56px 96px 143px 55px;
-	color: #FFFFFF;
-	z-index: 5;
-	font-size: 44px;
-	
+/*Finally, it is footer containing all kind of contact forms and info*/
+.misc-footer {
+ background-color: #F1F1F1;
+ height: 445px;
 }
-.solutions {}
-#discover {}
-
-/*Description & Products below the Communications*/

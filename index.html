@@ -1,34 +1,54 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<link rel="stylesheet" href="style.css" type="text/css">
-<title>Octopus ISR Systems</title>
-</head>
+	<head>
+		<link rel="stylesheet" href="style2.css" type="text/css">
+		<title>Octopus ISR Systems</title>
+	</head>
 <body>
-<header>
-	<ul id="header-menu">
-		<a href="#"><li>About Us</li></a>
-		<a href="#"><li>News</li></a>
-		<a href="#"><li>Currency: USD</li></a>
-		<a href="#"><li>EN</li></a>
-	</ul>
-</header>
-<div class="logo"><a href="index.html"><img border="0" src="Octopus.svg" alt="Our Logo"></a>
-<!--Clicking on logo will bring us back on homepage-->
-	<ul id="site-menu">
-		<a href="#"><li>Products</li></a>
-		<a href="#"><li>Knowledge Base</li></a>
-		<a href="#"><li>Gallery</li></a>
-		<a href="#"><li>Contacts</li></a>
-		<a href="#"><li>Build-a-Quote</li></a>
-	</ul>
-</div>
-<!--Now the text is almost correct, though I would want it a little bit lower-->
-<div class="gray-space">
-	<img id="epsilon" border="0" src="BitMapEpsilon.png" alt="Epsilon View">
-	<img id="epsilon-front" border="0" src="EpsilonFront.png" alt="Epsilon Front View">
-		<div class="communications">
-			<p class="communications-text">COMMUNICATIONS</p>
+	<header>
+		<ul id="header-menu">
+			<a href="#"><li>About Us</li></a>
+			<a href="#"><li>News</li></a>
+			<a href="#"><li>Currency: USD</li></a>
+			<a href="#"><li>EN</li></a>
+		</ul>
+	</header>
+
+	<div class="gray-space">
+		<div class="white-top">
+			<div class="logo">
+			<a href="index.html"><img border="0" src="Octopus.svg" alt="Our Logo">
+			<!--Hey Cap, a problem here! Once again, problems with positioning logo-->
+			</div>
+			<ul class="site-menu">
+				<a href="#"><li>Products</li></a>
+				<a href="#"><li>Knowledge Base</li></a>
+				<a href="#"><li>Gallery</li></a>
+				<a href="#"><li>Contacts</li></a>
+				<a href="#"><li>Build-a-Quote</li></a>
+			</ul>
 		</div>
-</div>
+		
+		<div class="products-row">
+		
+			<div class="left-side">
+				<div class="border"></div>
+			</div>
+			<div class="right-side">
+				<div class="communications"></div>
+				<div class="ground-control"></div>
+				<div class="damage"></div>
+			</div>
+		</div>
+		<div class="news-back"></div>
+		<div class="misc-footer"></div>
+	</div>
+<!--Yeah, there are a lot of yet not very understandable divs, let me ease up the understanding for you.
+As you suggested, I used full-block style to build this new index.html. "products-row" is the first
+gray space from the top. "left-side" is, obviously, the left-side of first gray-space. It goes same way
+with "right-side". "communications" is that nice picture with windmill. "ground-control" is first product
+from the left, "damage" is the right one. "news-back" is white space designed for site news. "misc-footer"
+is simply footer with all that "Tweet us" stuff.
+-->
 </body>
+</html>
