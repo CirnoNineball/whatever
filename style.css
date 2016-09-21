@@ -38,7 +38,6 @@ header {
 	height: 156px;
 }
 .logo {
-
 }
 .site-menu {
 	text-align: right;
@@ -63,21 +62,69 @@ header {
 }
 /*Left Side*/
 .left-side {
- width: 892px;
- height: 944px;
- float: left;
+	width: 50%;
+	height: 944px;
+	float: left;
 }
+/*Inside border*/
 .border {
- border: 8px solid #6666B2;
- height: 550px;
- width: 700px;
- /*btw this border really doesn't want to place itself correctly, so let it be at the top-left atm*/
+	border: 8px solid #6666B2;
+	height: 650px;
+	width: 680px;
+	margin-top: 50px;
+	float: right;
+	overflow: visible;
+	position: relative;
 }
+.epsilon{
+	position: absolute;
+	bottom: -65px;
+	left: 30%;
+	z-index: 2;
+}
+.epsilon-front {
+	position: absolute;
+	right: -55px;
+	top: 20%;
+	z-index: 1;
+}
+.epsilon-text{
+	color: #4A4A4A;
+}
+.epsilon-text h1 {
+	position: absolute;
+	left: -70px;
+	top: 0px;
+	font-size: 70px;
+	background-color: #F1F1F1;
+	font-weight: bold;
+}
+.epsilon-text h2 {
+	position: absolute;
+	left: -70px;
+	top: 95px;
+	font-size: 35px;
+	background-color: #F1F1F1;
+	font-weight: bold;
+}
+.epsilon-text p {
+	position: absolute;
+	left: -70px;
+	top: 150px;
+	font-size: 20px;
+	background-color: #F1F1F1;
+}
+.gimbals {
+	height: 58px;
+	width: 317px;
+	line-height: 29px;
+}
+
 /*Right Side*/
 .right-side {
- width: 1028px;
- height: 944px;
- float: right;
+	width: 50%;
+	height: 944px;
+	float: right;
 }
 /*End*/
 
@@ -91,6 +138,6 @@ header {
 
 /*Finally, it is footer containing all kind of contact forms and info*/
 .misc-footer {
- background-color: #F1F1F1;
- height: 445px;
+	background-color: #F1F1F1;
+	height: 445px;
 }
