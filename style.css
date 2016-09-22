@@ -126,6 +126,136 @@ header {
 	height: 944px;
 	float: right;
 }
+/*Communications block*/
+.communications {
+	width: inherit;
+	height: 50%;
+	position: relative;
+}
+.communications-img {
+	width: 741px;
+	height: 248px;
+	background-image: url(communications.png);
+	position: absolute;
+	left: 30%;
+	top: 25%;
+}
+.communications-img h1 {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	font-size: 44px;
+	color: #FFFFFF;
+}
+.communications-img p {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.discover-border {
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	left: 5%;
+	top: 65%;
+	border: 1px solid white;
+}
+.discover-border:hover {
+	background: #6666B2;
+}
+.discover-border p {
+	position: absolute;
+	left: 21%;
+	top: -5px;
+}
+/*End of Communications block*/
+/*Ground Control Block*/
+.ground-control {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+}
+.groundcontrol-img {
+	position: absolute;
+	left: 25%;
+	top: 30%;
+}
+.ground-control h1 {
+	
+	position: absolute;
+	top: 0px;
+	left: 25%;
+	font-size: 30px;
+	color: #4A4A4A;
+}
+.ground-control p {
+	position: absolute;
+	top: 60px;
+	left: 140px;
+	font-size: 16px;
+	color: #4A4A4A;
+}
+.groundcontrol-border {
+	width: 163px;
+	height: 40px;
+	position: absolute;
+	left: 40%;
+	top: 325px;
+	border: 1px solid blue;
+	background: #6666B2;
+}
+.groundcontrol-border p {
+	position: absolute;
+	left: 35px;
+	top: -5px;
+	color: #FFFFFF;
+}
+/*End of Ground Control Block*/
+/*Accidental Block*/
+.insurance {
+	float: right;
+	width: 50%;
+	height: 50%;
+	position: relative;
+}
+.insurance-img {
+	position: absolute;
+	left: 42%;
+	top: 30%;
+}
+.insurance h1 {
+	position: absolute;
+	top: 0px;
+	left: 15%;
+	font-size: 30px;
+	color: #4A4A4A;
+}
+.insurance p {
+	position: absolute;
+	top: 60px;
+	left: 140px;
+	font-size: 16px;
+	color: #4A4A4A;
+}
+.insurance-border {
+	width: 163px;
+	height: 40px;
+	position: absolute;
+	left: 40%;
+	top: 325px;
+	border: 1px solid blue;
+	background: #FFFFFF;
+}
+.insurance-border p{
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	color: blue;
+}
+
 /*End*/
 
 /*Below is News block*/
