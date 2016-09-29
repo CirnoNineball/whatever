@@ -38,6 +38,12 @@ header {
 	height: 156px;
 }
 .logo {
+	background-image: url(Octopus.svg);
+	width: 427px;
+	height: 75px;
+	position: absolute;
+	top: 59px;
+	left: 279px;
 }
 .site-menu {
 	text-align: right;
@@ -366,4 +372,94 @@ header {
 	background-color: #F1F1F1;
 	height: 445px;
 	width: 100%;
+	position: relative;
+}
+.footer-left-side {
+	back: #F1F1F1;
+	height: inherit;
+	width: 50%;
+	position: relative;
+	display: inline-block;
+}
+.footer-subscribe-text {
+	position: absolute;
+	top: 90px;
+	left: 277px;
+	font-size: 18px;
+	color: #4A4A4A;
+}
+.subscribe {
+	position: absolute;
+	top: 133px;
+	left: 277px;
+}
+.follow-us {
+	position: absolute;
+	left: 274px;
+	top: 225px;
+	font-size: 18px;
+	color: #4A4A4A;
+}
+.rights {
+	position: absolute;
+	left: 274px;
+	top: 325px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+.footer-right-side {
+	position: relative;
+	height: inherit;
+	width: 50%;
+	float: right;
+}
+.footer-first-row {
+	position: absolute;
+	top: 90px;
+}
+.footer-first-row ul {
+	color: #4A4A4A;
+	size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+}
+.footer-first-row a {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.footer-second-row {
+	position: absolute;
+	top: 90px;
+	left: 260px;
+}
+.footer-second-row ul {
+	color: #4A4A4A;
+	size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+}
+.footer-second-row a {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+.footer-third-row {
+	position: absolute;
+	top: 90px;
+	left: 475px;
+}
+.footer-third-row ul {
+	color: #4A4A4A;
+	size: 16px;
+	line-height: 19px;
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+}
+.footer-third-row a {
+	text-decoration: none;
+	color: #4A4A4A;
 }
