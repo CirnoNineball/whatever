@@ -8,7 +8,9 @@ header {
 	}
 #header-menu {
 	text-align:right;
-	top: 0px;
+	position: absolute;
+	left: 1170px;
+	top: -5px;
 }
 #header-menu ul{
 	display: block;
@@ -27,6 +29,7 @@ header {
 	background-color: #F1F1F1;
 	height: 1150px;
 	width: 100%;
+
 }
 /*End*/
 
@@ -40,7 +43,7 @@ header {
 .logo {
 	background-image: url(Octopus.svg);
 	width: 427px;
-	height: 75px;
+	height: 67px;
 	position: absolute;
 	top: 59px;
 	left: 279px;
@@ -48,6 +51,9 @@ header {
 .site-menu {
 	text-align: right;
 	float:right;
+	position: relative;
+	top: 70px;
+	right: 380px;
 }
 .site-menu ul {
 	display: block;
