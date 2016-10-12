@@ -18,7 +18,8 @@ header {
 #header-menu li {
 	display:inline-block;
 	color: #0F5573;
-	padding: 0px 36px;
+	padding: 0px 30px;
+	font-family: Lato-Bold;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -53,7 +54,7 @@ header {
 	float:right;
 	position: relative;
 	top: 70px;
-	right: 380px;
+	right: 285px;
 }
 .site-menu ul {
 	display: block;
@@ -61,7 +62,8 @@ header {
 .site-menu li {
 	display: inline-block;
 	color: #4A4A4A;
-	padding: 0px 20px;
+	padding: 0px 28px;
+	font-family: Lato-Regular;
 	font-size: 17px;
 }
 /*End*/
@@ -81,17 +83,18 @@ header {
 /*Inside border*/
 .border {
 	border: 8px solid #6666B2;
-	height: 650px;
-	width: 680px;
-	margin-top: 50px;
+	height: 600px;
+	width: 575px;
+	margin-top: 95px;
+	margin-right: 120px;
 	float: right;
 	overflow: visible;
 	position: relative;
 }
 .epsilon{
 	position: absolute;
-	bottom: -65px;
-	left: 30%;
+	bottom: -90px;
+	left: 18%;
 	z-index: 2;
 }
 .epsilon-front {
@@ -105,24 +108,27 @@ header {
 }
 .epsilon-text h1 {
 	position: absolute;
-	left: -70px;
+	left: -145px;
 	top: 0px;
+	font-family: Lato-Heavy;
 	font-size: 70px;
 	background-color: #F1F1F1;
 	font-weight: bold;
 }
 .epsilon-text h2 {
 	position: absolute;
-	left: -70px;
-	top: 95px;
+	left: -145px;
+	top: 105px;
+	font-family: Lato-Heavy;
 	font-size: 35px;
 	background-color: #F1F1F1;
 	font-weight: bold;
 }
 .epsilon-text p {
 	position: absolute;
-	left: -70px;
-	top: 150px;
+	left: -145px;
+	top: 180px;
+	font-family: Lato-Light;
 	font-size: 20px;
 	background-color: #F1F1F1;
 }
@@ -156,6 +162,7 @@ header {
 	position: absolute;
 	top: 10%;
 	left: 5%;
+	font-family: Lato-Heavy;
 	font-size: 44px;
 	color: #FFFFFF;
 }
@@ -163,6 +170,7 @@ header {
 	position: absolute;
 	top: 40%;
 	left: 5%;
+	font-family: Lato-Light;
 	font-size: 20px;
 	color: #FFFFFF;
 }
@@ -178,6 +186,7 @@ header {
 	background: #6666B2;
 }
 .discover-border p {
+	font-family: Lato-Regular;
 	position: absolute;
 	left: 21%;
 	top: -5px;
@@ -196,10 +205,10 @@ header {
 	top: 15%;
 }
 .ground-control h1 {
-	
 	position: absolute;
 	top: -35px;
 	left: 25%;
+	font-family: Lato-Heavy;
 	font-size: 30px;
 	color: #4A4A4A;
 }
@@ -207,6 +216,7 @@ header {
 	position: absolute;
 	top: 25px;
 	left: 140px;
+	font-family: Lato-Light;
 	font-size: 16px;
 	color: #4A4A4A;
 }
@@ -220,6 +230,7 @@ header {
 	background: #6666B2;
 }
 .groundcontrol-border p {
+	font-family: Lato-Regular;
 	position: absolute;
 	left: 35px;
 	top: -5px;
@@ -242,6 +253,7 @@ header {
 	position: absolute;
 	top: -35px;
 	left: 15%;
+	font-family: Lato-Heavy;
 	font-size: 30px;
 	color: #4A4A4A;
 }
@@ -249,6 +261,7 @@ header {
 	position: absolute;
 	top: 25px;
 	left: 140px;
+	font-family: Lato-Light;
 	font-size: 16px;
 	color: #4A4A4A;
 }
@@ -262,6 +275,7 @@ header {
 	background: #FFFFFF;
 }
 .insurance-border p{
+	font-family: Lato-Regular;
 	position: absolute;
 	left: 30px;
 	top: -5px;
@@ -312,6 +326,7 @@ header {
 	top: 220px;
 }
 .news-name {
+	font-family: Lato-Heavy;
 	font-size: 20px;
 	font-weight: bold;
 	color: #4A4A4A;
@@ -327,6 +342,7 @@ header {
 	top: 66px;
 }
 .news-description {
+	font-family: Lato-Light;
 	width: 433px;
 	height: 92px;
 	font-size: 16px;
@@ -347,6 +363,7 @@ header {
 	text-align: center;
 }
 .news-date-border p {
+	font-family: Lato-Medium;
 	color: #266E99;
 	font-size: 15px;
 	line-height: 18px;
@@ -363,6 +380,7 @@ header {
 
 }
 .news-bottom-button-border p {
+	font-family: Lato-Regular;
 	vertical-align: middle;
 	color: #266E99;
 	font-size: 15px;
@@ -387,7 +405,8 @@ header {
 	position: relative;
 	display: inline-block;
 }
-.footer-subscribe-text {
+.footer-subscribe-text {	
+	font-family: Lato-Light;
 	position: absolute;
 	top: 90px;
 	left: 277px;
@@ -399,7 +418,8 @@ header {
 	top: 133px;
 	left: 277px;
 }
-.follow-us {
+.follow-us {	
+	font-family: Lato-Light;
 	position: absolute;
 	left: 274px;
 	top: 225px;
@@ -424,6 +444,7 @@ header {
 	top: 90px;
 }
 .footer-first-row ul {
+	font-family: Lato-Light;
 	color: #4A4A4A;
 	size: 16px;
 	line-height: 19px;
@@ -441,6 +462,7 @@ header {
 	left: 260px;
 }
 .footer-second-row ul {
+	font-family: Lato-Light;
 	color: #4A4A4A;
 	size: 16px;
 	line-height: 19px;
@@ -458,6 +480,7 @@ header {
 	left: 475px;
 }
 .footer-third-row ul {
+	font-family: Lato-Light;
 	color: #4A4A4A;
 	size: 16px;
 	line-height: 19px;
@@ -468,4 +491,24 @@ header {
 .footer-third-row a {
 	text-decoration: none;
 	color: #4A4A4A;
+}
+@font-face {
+font-family: Lato-Bold;
+src: url(Lato-Bold.ttf);
+}
+@font-face {
+font-family: Lato-Heavy;
+src: url(Lato-Heavy.ttf);
+}
+@font-face {
+font-family: Lato-Light;
+src: url(Lato-Light.ttf);
+}
+@font-face {
+font-family: Lato-Medium;
+src: url(Lato-Medium.ttf);
+}
+@font-face {
+font-family: Lato-Regular;
+src: url(Lato-Regular.ttf);
 }
