@@ -120,7 +120,7 @@ header {
 	left: -145px;
 	top: 105px;
 	font-family: Lato-Heavy;
-	font-size: 35px;
+	font-size: 34px;
 	background-color: #F1F1F1;
 	font-weight: bold;
 }
@@ -137,6 +137,26 @@ header {
 	width: 317px;
 	line-height: 29px;
 }
+.gimbals-button-border {
+	position: relative;
+	width: 201px;
+	height: 50px;
+	background-color: #6666B2;
+	border: 1px solid #6666B2;
+	top: 280px;
+	left: -145px;
+	z-index: 2;
+}
+.gimbals-button-border p {
+	position: absolute;
+	font-family: Lato-Regular;
+	font-size: 19px;
+	color: #FFFFFF;
+	top: -5px;
+	left: 25%;
+	z-index: 2;
+}
+
 
 /*Right Side*/
 .right-side {
@@ -152,24 +172,24 @@ header {
 }
 .communications-img {
 	width: 741px;
-	height: 248px;
+	height: 278px;
 	background-image: url(communications.png);
 	position: absolute;
-	left: 30%;
-	top: 25%;
+	left: 5%;
+	top: 30%;
 }
 .communications-img h1 {
 	position: absolute;
 	top: 10%;
-	left: 5%;
+	left: 7%;
 	font-family: Lato-Heavy;
 	font-size: 44px;
 	color: #FFFFFF;
 }
 .communications-img p {
 	position: absolute;
-	top: 40%;
-	left: 5%;
+	top: 34%;
+	left: 8%;
 	font-family: Lato-Light;
 	font-size: 20px;
 	color: #FFFFFF;
@@ -178,8 +198,8 @@ header {
 	position: absolute;
 	width: 200px;
 	height: 50px;
-	left: 5%;
-	top: 65%;
+	left: 8%;
+	top: 60%;
 	border: 1px solid white;
 }
 .discover-border:hover {
@@ -188,8 +208,8 @@ header {
 .discover-border p {
 	font-family: Lato-Regular;
 	position: absolute;
-	left: 21%;
-	top: -5px;
+	left: 27%;
+	top: -8px;
 }
 /*End of Communications block*/
 /*Ground Control Block*/
@@ -201,21 +221,21 @@ header {
 }
 .groundcontrol-img {
 	position: absolute;
-	left: 25%;
-	top: 15%;
+	left: 6%;
+	top: 28%;
 }
 .ground-control h1 {
 	position: absolute;
-	top: -35px;
-	left: 25%;
+	top: 10px;
+	left: 4%;
 	font-family: Lato-Heavy;
 	font-size: 30px;
 	color: #4A4A4A;
 }
 .ground-control p {
 	position: absolute;
-	top: 25px;
-	left: 140px;
+	top: 65px;
+	left: 14%;
 	font-family: Lato-Light;
 	font-size: 16px;
 	color: #4A4A4A;
@@ -224,15 +244,16 @@ header {
 	width: 163px;
 	height: 40px;
 	position: absolute;
-	left: 38%;
-	top: 275px;
+	left: 17%;
+	top: 325px;
 	border: 1px solid blue;
 	background: #6666B2;
 }
 .groundcontrol-border p {
+	font-size: 15px;
 	font-family: Lato-Regular;
 	position: absolute;
-	left: 35px;
+	left: 43px;
 	top: -5px;
 	color: #FFFFFF;
 }
@@ -246,59 +267,60 @@ header {
 }
 .insurance-img {
 	position: absolute;
-	left: 40%;
-	top: 15%;
+	left: 3%;
+	top: 34%;
 }
 .insurance h1 {
 	position: absolute;
-	top: -35px;
-	left: 15%;
+	top: 10px;
+	left: -18%;
 	font-family: Lato-Heavy;
 	font-size: 30px;
 	color: #4A4A4A;
 }
 .insurance p {
 	position: absolute;
-	top: 25px;
-	left: 140px;
+	top: 70px;
+	left: -13%;
 	font-family: Lato-Light;
 	font-size: 16px;
 	color: #4A4A4A;
 }
 .insurance-border {
-	width: 163px;
-	height: 40px;
+	width: 155px;
+	height: 37px;
 	position: absolute;
-	left: 38%;
-	top: 275px;
-	border: 1px solid blue;
-	background: #FFFFFF;
+	left: 2%;
+	top: 325px;
+	border: 2px solid #6666B2;
+	background: inherit;
 }
 .insurance-border p{
+	font-size: 15px;
 	font-family: Lato-Regular;
 	position: absolute;
 	left: 30px;
 	top: -5px;
-	color: blue;
+	color: #6666B2;
 }
 
 /*End*/
 
 /*Below is News block*/
-.news-back {
+.news-back {	
 	height: 944px;
 	width: inherit;
 	background-color: #FFFFFF;
 	position: relative;
+	top: -60px;
 }
 .latest-news-text {
 	position: absolute;
-	top: 89px;
-	left: 283px;
+	top: 63px;
+	left: 270px;
 	height: 55px;
 	width: 255px;
 	color: #4A4A4A;
-	font-weight: bold;
 	font-size: 46px;
 }
 .news-container-1 {
@@ -314,7 +336,7 @@ header {
 	height: 540px;
 	position: absolute;
 	float: left;
-	left: 750px;
+	left: 735px;
 	top: 220px;
 }
 .news-container-3 {
@@ -322,7 +344,7 @@ header {
 	height: 540px;
 	position: absolute;
 	float: left;
-	left: 1200px;
+	left: 1195px;
 	top: 220px;
 }
 .news-name {
@@ -331,8 +353,8 @@ header {
 	font-weight: bold;
 	color: #4A4A4A;
 	position: absolute;
-	left: 107px;
-	top: 0px;
+	left: 105px;
+	top: -5px;
 	width: 311px;
 	height: 54px;
 }
@@ -348,8 +370,8 @@ header {
 	font-size: 16px;
 	color: #4A4A4A;
 	position: absolute;
-	top: 447px;
-	left: 0px;
+	top: 425px;
+	left: -5px;
 	line-height: 23px;
 }
 .news-date-border {
@@ -371,11 +393,11 @@ header {
 	vertical-align: middle;
 }
 .news-bottom-button-border {
-	border: 3px solid #266E99;
-	width: 198px;
-	height: 40px;
+	border: 2px solid #266E99;
+	width: 190px;
+	height: 35px;
 	position: relative;
-	top: 805px;
+	top: 825px;
 	left: 865px;
 
 }
@@ -385,8 +407,8 @@ header {
 	color: #266E99;
 	font-size: 15px;
 	position: absolute;
-	left: 30%;
-	top: -3px;
+	left: 31%;
+	top: -6px;
 }
 
 /*End*/
@@ -408,7 +430,7 @@ header {
 .footer-subscribe-text {	
 	font-family: Lato-Light;
 	position: absolute;
-	top: 90px;
+	top: 70px;
 	left: 277px;
 	font-size: 18px;
 	color: #4A4A4A;
@@ -421,8 +443,8 @@ header {
 .follow-us {	
 	font-family: Lato-Light;
 	position: absolute;
-	left: 274px;
-	top: 225px;
+	left: 270px;
+	top: 205px;
 	font-size: 18px;
 	color: #4A4A4A;
 }
@@ -441,7 +463,8 @@ header {
 }
 .footer-first-row {
 	position: absolute;
-	top: 90px;
+	top: 70px;
+	left: 25px;
 }
 .footer-first-row ul {
 	font-family: Lato-Light;
@@ -458,8 +481,8 @@ header {
 }
 .footer-second-row {
 	position: absolute;
-	top: 90px;
-	left: 260px;
+	top: 70px;
+	left: 295px;
 }
 .footer-second-row ul {
 	font-family: Lato-Light;
@@ -476,8 +499,8 @@ header {
 }
 .footer-third-row {
 	position: absolute;
-	top: 90px;
-	left: 475px;
+	top: 70px;
+	left: 510px;
 }
 .footer-third-row ul {
 	font-family: Lato-Light;
