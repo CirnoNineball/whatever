@@ -49,6 +49,7 @@ header {
 	top: 59px;
 	left: 279px;
 }
+
 .site-menu {
 	text-align: right;
 	float:right;
@@ -514,6 +515,14 @@ header {
 .footer-third-row a {
 	text-decoration: none;
 	color: #4A4A4A;
+}
+.site-container {
+	max-width: 2000px;
+	position: static;
+	height: 100%;
+	width: 100%;
+	max-height: 10000px;
+
 }
 @font-face {
 font-family: Lato-Bold;
